@@ -1,10 +1,9 @@
-# Streamer
-Hi-Fi Network Player, Streamer, DAC
+# Hi-Fi Network Player, Streamer, DAC
 ![streamer](https://user-images.githubusercontent.com/129951888/230065097-53be0dc1-9035-4558-9b43-036ec7f7ae7a.png)
 
-1. DOWNLOAD RASPBERRY PI OS Lite
+DOWNLOAD RASPBERRY PI OS Lite : https://www.raspberrypi.com/software/operating-systems/
 
-2. ADD USER PI and enable SSH
+ADD USER PI and enable SSH
 
 - Create a file named user userconf (or userconf.txt) containing the following:
 
@@ -14,7 +13,7 @@ pi:$6$c70VpvPsVNCG0YR5$l5vWWLsLko9Kj65gcQ8qvMkuOoRkEagI90qi3F/Y7rm8eNYZHW8CY6BOI
 
 - Insert the SD card in the Raspberry Pi and it should boot with access to user 'pi' (password : raspberry) via SSH.
 
-
+UPDATE RASPBERRY PI FIRMWARE
 sudo rpi-update - firmware update
 
 sudo raspi-config
